@@ -7,13 +7,12 @@ import './login.css';
 const Login = () => {
     return(
         <div>
-            <img src={Hero} alt="" />
+            <img src={Hero} alt="" className="background" />
             <div className="page">
                 <div className="left-page">
                     <img src={Logo} alt="find job logo" />
-                    <p>for employers</p>
                     <p><strong>Find the best<br /> candidates for your<br />organisation</strong></p>
-                    <img src={Preview} alt="" />
+                    <img src={Preview} alt="" className="preview"/>
                 </div>
                 <div className="right-page">
                     <p><span className="login">Login</span></p>

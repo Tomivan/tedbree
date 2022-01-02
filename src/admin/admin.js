@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../assets/Logo.png";
 import Ellipse2 from "../assets/Ellipse-2.png";
 import Ellipse3 from '../assets/Ellipse-3.png';
-import Ellipse4 from '../assets/Ellipse.png';
+import Ellipse4 from '../assets/Ellipse-4.png';
 import Avatar from '../assets/Avatar.png';
 import Group2 from '../assets/Group-2.png';
 import Plus from '../assets/plus.png';
@@ -17,13 +17,15 @@ const Admin = () => {
     return (
         <div className="admin">
             <div className="admin-top">
-                <div className="left-side">
-                    <img src={Logo} alt="" />
-                    <p>For employers</p>
-                </div>
-                <div className="right-side">
-                    <img src={Notification} alt="" />
-                    <img src={Avatar} alt="" />
+                <div clasNmae="top">
+                    <div className="left-side">
+                        <img src={Logo} alt="" />
+                        <p>For employers</p>
+                    </div>
+                    <div className="right-side">
+                        <img src={Notification} alt="" />
+                        <img src={Avatar} alt="" />
+                    </div>
                 </div>
                 <div className="">
                     <h1>Jobs</h1>

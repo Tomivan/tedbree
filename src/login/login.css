@@ -1,0 +1,49 @@
+.background{
+    width: 100%;
+    height: 97vh;
+}
+.page{
+    display: flex;
+    position: absolute;
+    padding: 1em;
+    top: 0%;
+}
+.left-page{
+    color: #ffffff;
+    margin-left: 5%;
+}
+.left-page p{
+    margin-top: 20%;
+    font-size: 40px;
+}
+.preview{
+    height: 40vh;
+}
+.right-page{
+    display: flex;
+    flex-direction: column;
+    margin: 20% 0 0 45%;
+}
+.login{
+    color: #0f4a7b;
+    font-weight: 800;
+    font-size: 20px;
+}
+.right-page input{
+    height: 5vh;
+    width: 25vw;
+    border: 0.5px solid #0f4a7b;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+.right-page label{
+    margin-bottom: 3%;
+}
+.button{
+    color: #ffffff;
+    background: #0f4a7b;
+    width: 8vw;
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+}
