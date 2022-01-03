@@ -1,0 +1,73 @@
+.navigation{
+    padding: 1em;
+    background: #0f4a7b;
+    color: #ffffff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+Ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding-right: 1em;
+}
+.lower{
+    display: flex;
+    justify-content: space-between;
+}
+.ellipses{
+    display: flex;
+    flex-direction: column;
+}
+.ellipse-2{
+    height: 10vh;
+}
+.ellipse-3{
+    margin-left: -5%;
+    margin-top: 5%;
+    height: 4vh;
+    width: 2vw;
+}
+.ellipse-4{
+    margin-left: -30%;
+    margin-top: 5%;
+    height: 4vh;
+    width: 2vw;
+}
+.search{
+    display: flex;
+}
+.search input{
+    height: 7vh;
+    width: 75vw;
+    margin-left: 10%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.1);
+    margin-top: -2%;
+}
+.search-info{
+    display: flex;
+    position: absolute;
+    left: 12%;
+    top: 29%;
+}
+.role, .location{
+    display: flex;
+}
+.vector, .group-2{
+    height: 3vh;
+    margin-top: 8%;
+    padding-right: 0.5em;
+}
+.search-button{
+    height: 5vh;
+    background: #ea5566;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    width: 7vw;
+}

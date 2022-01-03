@@ -1,5 +1,6 @@
 import React from 'react';
-import "./job-application";
+import Upload from '../assets/upload.png';
+import "./job-application.css";
 
 const JobApplication = () => {
     return(

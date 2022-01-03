@@ -1,5 +1,5 @@
 import React from 'react';
-import "./job-creation";
+import "./job-creation.css";
 
 const JobCreation = () => {
     return(

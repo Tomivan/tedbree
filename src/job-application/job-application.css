@@ -1,0 +1,23 @@
+.job-application{
+    background: #f9fbfd;
+    display: flex;
+    flex-direction: column;
+}
+.job-application label{
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+.job-application input{
+    width: 40%;
+    height: 5vh;
+    border: 0.5px solid #0f4a7b;
+    border-radius: 5px;
+}
+.submit{
+    width: 40%;
+    height: 6vh;
+    background: #0f4a7b;
+    color: #ffffff;
+    border: none;
+    margin-top: 2%;
+}

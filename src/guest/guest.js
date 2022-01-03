@@ -20,23 +20,28 @@ const Guest = () => {
                        <li>Jobs</li>
                        <li>Company Reviews</li>
                        <li>Find Salaries</li>
+                       <button className="post-jobs">Post Jobs</button>
                    </ul>
-                   <button className="post-jobs">Post Jobs</button>
                 </nav>
-                <h1>Find Your Dream Job</h1>
-                <img src={Ellipse2} alt="" />
-                <img src={Ellipse3} alt="" />
-                <img src={Ellipse4} alt="" />
+                <div className="lower">
+                    <h1>Find Your Dream Job</h1>
+                    <div className="ellipses">
+                        <img src={Ellipse2} alt="" className="ellipse-2"/>
+                        <img src={Ellipse3} alt=""  className="ellipse-3"/>
+                        <img src={Ellipse4} alt=""  className="ellipse-4"/>
+                    </div>
+                </div>
            </div>
            <div className="search">
                <input type="search" />
                <div className="search-info">
                    <div className="role">
-                       <img src={Vector} alt="a search icon" />
+                       <img src={Vector} alt="a search icon" className="vector"/>
                        <p>Front end Developer</p>
                    </div>
                    <div className="location">
-                       <img src={Group2} alt="a search icon" />
+                   <hr />
+                       <img src={Group2} alt="a search icon" className="group-2"/>
                        <p>Lagos, Nigeria</p>
                    </div>
                    <button className="search-button">Search</button>
